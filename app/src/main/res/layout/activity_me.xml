@@ -38,6 +38,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:background="@color/light_black"
             android:orientation="vertical">
 
@@ -74,6 +75,181 @@
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_title_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Téléphone"
+                android:textColor="@color/medium_violet_red"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/ic_pp_round" />
+
+                <TextView
+                    android:id="@+id/text_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="06.65.27.51.08"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_title_adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="E-mail"
+                android:textColor="@color/medium_violet_red"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/ic_pp_round" />
+
+                <TextView
+                    android:id="@+id/text_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="chihaoui1098@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_title_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Adresse"
+                android:textColor="@color/medium_violet_red"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/ic_pp_round" />
+
+                <TextView
+                    android:id="@+id/text_adresse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="6 rue des arbustes \n 31500 Toulouse"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp"
+            android:background="@color/light_black"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_title_linkedin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Linkedin"
+                android:textColor="@color/medium_violet_red"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@mipmap/ic_pp_round" />
+
+                <TextView
+                    android:id="@+id/text_linkedin"
+                    android:layout_width="308dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginStart="52dp"
+                    android:gravity="center"
+                    android:text="https://www.linkedin.com/in/montasar-\nchihaoui/"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
             </RelativeLayout>
         </LinearLayout>
 
