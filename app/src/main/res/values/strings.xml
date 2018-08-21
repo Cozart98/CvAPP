@@ -6,4 +6,5 @@
     <string name="tab_text_1">Moi</string>
     <string name="tab_text_2">Mes Projets</string>
     <string name="tab_text_3">Compétences</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

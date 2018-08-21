@@ -19,6 +19,7 @@ public class MeActivity extends Fragment {
     public TextView phoneNumber;
     public TextView textMail;
     public String mail;
+    public TextView address;
 
 
 
@@ -28,12 +29,14 @@ public class MeActivity extends Fragment {
 
         phoneNumber = (TextView) rootview.findViewById(R.id.text_phone);
         textMail = (TextView) rootview.findViewById(R.id.text_mail);
+        address = (TextView) rootview.findViewById(R.id.text_addresse);
 
         phone = "tel:" + phoneNumber.getText().toString();
         mail = "mailto:" +textMail.getText().toString();
 
         onPressPhone();
         onPressMail();
+        onPressAddress();
 
 
         return rootview;
@@ -96,6 +99,34 @@ public class MeActivity extends Fragment {
                     case MotionEvent.ACTION_UP:
                     case MotionEvent.ACTION_CANCEL: {
                         textMail.setAlpha(1f);
+                        break;
+                    }
+                }
+                return false;
+            }
+        });
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    private void onPressAddress(){
+       address.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               Intent i = new Intent(getActivity(), MapsActivity.class);
+               startActivity(i);
+           }
+       });
+        address.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                switch (motionEvent.getAction()) {
+                    case MotionEvent.ACTION_DOWN: {
+                        address.setAlpha(0.5f);
+                        break;
+                    }
+                    case MotionEvent.ACTION_UP:
+                    case MotionEvent.ACTION_CANCEL: {
+                        address.setAlpha(1f);
                         break;
                     }
                 }
