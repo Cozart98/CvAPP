@@ -7,4 +7,26 @@
     <string name="tab_text_2">Mes Projets</string>
     <string name="tab_text_3">Compétences</string>
     <string name="title_activity_maps">Map</string>
+    <string name="descr_winstate"> 20 semaines</string>
+    <string name="descr_milos28"> 7 semaines</string>
+    <string name="descr_truck2food"> 6 semaines</string>
+    <string name="project_winstate"> Application pour un Food Truck fictif.\n\n Elle permet de :\n
+- Découvrir chaque jour un nouveau burger et réservez-le à l\'heure souhaitée.\n
+- Accéder à la présentation et aux emplacements du foodtruck selon les jours de la semaine.\n
+- Contacter le foodtruck pour toute demande ou pour privatiser.\n
+- Consulter les évènements programmés.\n
+- Application en JAVA (Android). (Disponible sur le Play Store).</string>
+    <string name="project_milos28">Application pour la mission local d\'Eure et Loir.\n\nElle permet aux jeunes de la mission locale de :\n
+- Contacter son conseiller.\n
+- De s\'informer concernant les différentes  organisations travaillant avec la mission  locale.\n
+- De se situer en fonction des différentes  antennes.\n
+-De créer ou gérer son Curriculum vitae et sa  lettre de motivation.\n
+-D’être guidé professionnellement.\n
+Application en JAVA (Android). (Disponible sur le Play Store). </string>
+    <string name="project_truck2food">Application pour un Food Truck fictif.\n\n Elle permet de :\n
+- Découvrir chaque jour un nouveau burger et réservez-le à l\'heure souhaitée.\n
+- Accéder à la présentation et aux emplacements du foodtruck selon les jours de la semaine.\n
+- Contacter le foodtruck pour toute demande ou pour privatiser.\n
+- Consulter les évènements programmés.\n
+- Application en JAVA (Android). (Disponible sur le Play Store).</string>
 </resources>
