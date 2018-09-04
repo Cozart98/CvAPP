@@ -224,7 +224,10 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp">
-
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -233,19 +236,17 @@
                     android:layout_alignParentTop="true"
                     android:src="@drawable/linkedin" />
 
+
                 <TextView
                     android:id="@+id/text_linkedin"
-                    android:layout_width="308dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="52dp"
-                    android:layout_marginStart="52dp"
+                    android:layout_gravity="center"
                     android:gravity="center"
                     android:text="https://www.linkedin.com/in/montasar-\nchihaoui/"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
+                </LinearLayout>
             </RelativeLayout>
         </LinearLayout>
 

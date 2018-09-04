@@ -40,11 +40,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
+                android:textColor="@color/black"
                 android:text="DEVELOPPEUR LOGICIEL (BAC+2)"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
+                android:textColor="@color/black"
                 android:text="BACCALAURÉAT GESTION ADMINISTRATION"/>
         </LinearLayout>
     </LinearLayout>
@@ -76,6 +78,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:padding="5dp"
                 android:text="CERTIFICATION OPQUAST \nMaîtrise de la qualité en projet Web - 2017 "/>
         </LinearLayout>
@@ -108,11 +111,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Hackathon WINSTATE \nPrix l'interface la plus innovante"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Hackathon WishList \nPrix de la meilleure application et des meilleures fonctionnalités"/>
             </LinearLayout>
@@ -145,51 +150,61 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Java Android"/>
                 <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:padding="5dp"
                 android:text="React Native"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="JavaScript"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="TypeScript"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Ionic"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="HTML"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="CSS"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="SCSS"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="XML"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="SQL"/>
             </LinearLayout>
@@ -222,51 +237,61 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Android Studio"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="WebStorm"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Xcode"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Visual Studio Code"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Sourcetree"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Github"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="GitLab"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Photoshop"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Adobe premiere pro"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="After Effect"/>
             </LinearLayout>
@@ -300,32 +325,38 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Git"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="FireBase"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Merise"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Google Drive"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Slack"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="MySQL"/>
             </LinearLayout>
@@ -358,16 +389,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Linux"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Mac OS"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Windows"/>
             </LinearLayout>
@@ -400,11 +434,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Anglais (niveau B2)"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:text="Espagnol (niveau B1)"/>
             </LinearLayout>

@@ -45,6 +45,7 @@
             android:background="@drawable/cardbottom">
             <TextView
                 android:id="@+id/winstate_text"
+                android:textColor="@color/black"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
@@ -88,6 +89,7 @@
                 android:id="@+id/milos28_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:padding="5dp"
                 android:text="@string/descr_milos28"/>
         </LinearLayout>
@@ -129,6 +131,7 @@
                 android:id="@+id/truck2food_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:padding="5dp"
                 android:text="@string/descr_truck2food"/>
         </LinearLayout>
