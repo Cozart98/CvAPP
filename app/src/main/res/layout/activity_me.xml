@@ -60,9 +60,8 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
                     android:layout_alignParentTop="true"
-                    android:src="@mipmap/ic_pp_round" />
+                    android:src="@drawable/cake" />
 
                 <TextView
                     android:id="@+id/text_birthday"
@@ -103,9 +102,8 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
                     android:layout_alignParentTop="true"
-                    android:src="@mipmap/ic_pp_round" />
+                    android:src="@drawable/phone" />
 
                 <TextView
                     android:id="@+id/text_phone"
@@ -146,9 +144,8 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
                     android:layout_alignParentTop="true"
-                    android:src="@mipmap/ic_pp_round" />
+                    android:src="@drawable/mail" />
 
                 <TextView
                     android:id="@+id/text_mail"
@@ -189,9 +186,8 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
                     android:layout_alignParentTop="true"
-                    android:src="@mipmap/ic_pp_round" />
+                    android:src="@drawable/location" />
 
                 <TextView
                     android:id="@+id/text_addresse"
@@ -235,7 +231,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_alignParentTop="true"
-                    android:src="@mipmap/ic_pp_round" />
+                    android:src="@drawable/linkedin" />
 
                 <TextView
                     android:id="@+id/text_linkedin"
