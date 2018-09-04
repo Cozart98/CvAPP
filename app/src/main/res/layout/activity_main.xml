@@ -23,6 +23,7 @@
             android:background="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/white"
             app:title="@string/app_name">
 
         </android.support.v7.widget.Toolbar>
@@ -30,7 +31,10 @@
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/medium_violet_red"
+            app:tabSelectedTextColor="@color/medium_violet_red"
+            app:tabTextColor="@color/white">
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem"
